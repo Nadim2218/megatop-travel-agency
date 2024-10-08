@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megatop Travel</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary menu-bg">
+      <div class="container">
+        <a href="index.html"
+          ><img
+            class="quicktech-logo"
+            src="images/MEGATOP-LOGO-removebg-preview.png"
+            alt=""
+        /></a>
+        <a class="navbar-brand" href="index.html"
+          >Megatop Travel International Pvt Ltd</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="visa.html">Visa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hajj <i class="fa-solid fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="hajj.html">Hajj</a></li>
+                <li><a class="dropdown-item" href="umraah.html">Umrah</a></li>
+              </ul>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="hajj.html">Hajj</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="airticket.html">Air Ticket</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tourism.html">Tourism</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar -->
+    <!-- contact banner -->
+    <section id="quicktech-visabanner">
+      <div class="quikctech-visabanner-img">
+        <img src="images/bd.jpg" class="w-100" alt="" />
+        <div class="quikctech-visa-head">
+          <h1>Contact</h1>
+        </div>
+      </div>
+    </section>
+    <!-- contact banner -->
+
+    <!-- contact main -->
+
+    <section id="Quicktech-contact" class="pt-100">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6">
+            <div class="contact-form">
+              <h2>Contact Us</h2>
+              <form>
+                <div class="form-group quicktech-contact-input">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="form-group quicktech-contact-input">
+                  <label for="email">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="form-group quicktech-contact-input">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder="Enter the subject"
+                  />
+                </div>
+                <div class="form-group quicktech-contact-input">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Enter your message"
+                  ></textarea>
+                </div>
+                <button
+                  style="margin-top: 10px"
+                  type="submit"
+                  class="btn btn-primary"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-info">
+              <h2>Contact Information</h2>
+              <p>
+                <i class="fas fa-map-marker-alt"></i
+                ><strong>Address:</strong> Mirpur Shah ali plaza level 8
+              </p>
+              <p>
+                <i class="fas fa-phone"></i><strong>Phone:</strong> 0177777777
+              </p>
+              <p>
+                <i class="fas fa-envelope"></i
+                ><strong>Email:</strong> demo@gmail.com
+              </p>
+            </div>
+            <div class="quicktech-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14604.938383086297!2d90.40309515!3d23.774659050000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1720085240931!5m2!1sen!2sbd"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact main -->
+
+    <!-- footer -->
+
+    <footer id="quicktech-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="quicktech-footer-head">
+              <h4>Explore</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="quicktech-footer-head">
+              <h4>Newsletter</h4>
+              <div class="newsletter-container">
+                <form class="d-flex">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email address"
+                    aria-label="Email address"
+                  />
+                  <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
+              </div>
+              <br />
+              <div class="quicktech-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29204.28269592876!2d90.38026844655764!3d23.799555463868852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sbn!2sbd!4v1728203502927!5m2!1sbn!2sbd"
+                  width="85%"
+                  height="170px"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="quicktech-footer-head">
+              <h4>Contact</h4>
+              <ul class="quicktech-contact-footer">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i> Mirpur 10 Shah Ali
+                  Plaza
+                </li>
+                <li>
+                  <a href="tel:01777777777"
+                    ><i class="fa-solid fa-phone"></i> 01777777777</a
+                  >
+                </li>
+                <li><i class="fa-solid fa-envelope"></i> demo@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <hr style="color: white" />
+            <div class="quicktech-copyright text-center">
+              <p class="text-white">
+                Copyright Megatop Travel International Pvt Ltd © 2024 All rights
+                reserved. Developed By QuickTech IT
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+    <script src="js/jquery.youtube-background.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script></script>
+  </body>
+</html>

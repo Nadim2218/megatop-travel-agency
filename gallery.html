@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megatop Travel</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary menu-bg">
+      <div class="container">
+        <a href="index.html"
+          ><img
+            class="quicktech-logo"
+            src="images/MEGATOP-LOGO-removebg-preview.png"
+            alt=""
+        /></a>
+        <a class="navbar-brand" href="index.html"
+          >Megatop Travel International Pvt Ltd</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="visa.html">Visa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hajj <i class="fa-solid fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="hajj.html">Hajj</a></li>
+                <li><a class="dropdown-item" href="umraah.html">Umrah</a></li>
+              </ul>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="hajj.html">Hajj</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="airticket.html">Air Ticket</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tourism.html">Tourism</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar -->
+    <!-- tourism banner -->
+    <section id="quicktech-visabanner">
+      <div class="quikctech-visabanner-img">
+        <img src="images/tt.png" class="w-100" alt="" />
+        <div class="quikctech-visa-head">
+          <h1>Gallery</h1>
+        </div>
+      </div>
+    </section>
+    <!-- tourism banner -->
+
+    <!-- gallery -->
+    <section id="quicktech-gallery">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-lg-6">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button
+                  style="color: black !important"
+                  class="nav-link active"
+                  id="nav-mega-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-mega"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-mega"
+                  aria-selected="true"
+                >
+                  Megatop
+                </button>
+                <button
+                  class="nav-link"
+                  style="color: black"
+                  id="nav-gallery-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-gallery"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-gallery"
+                  aria-selected="false"
+                >
+                  Gallery
+                </button>
+                <button
+                  class="nav-link"
+                  style="color: black !important"
+                  id="nav-gallery2-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-gallery2"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-gallery2"
+                  aria-selected="false"
+                >
+                  gallery 2
+                </button>
+              </div>
+            </nav>
+          </div>
+          <div class="col-lg-12 mt-5">
+            <div class="tab-content" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="nav-mega"
+                role="tabpanel"
+                aria-labelledby="nav-mega-tab"
+                tabindex="0"
+              >
+                <div class="row gapp">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g1.jpg"
+                        class="w-100"
+                        alt="Image 4"
+                        data-bs-img-src="images/g1.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g2.jpg"
+                        class="w-100"
+                        alt="Image 5"
+                        data-bs-img-src="images/g2.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g3.jpg"
+                        class="w-100"
+                        alt="Image 6"
+                        data-bs-img-src="images/g3.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-gallery"
+                role="tabpanel"
+                aria-labelledby="nav-gallery-tab"
+                tabindex="0"
+              >
+                <div class="row gapp">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g1.jpg"
+                        class="w-100"
+                        alt="Image 4"
+                        data-bs-img-src="images/g1.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g2.jpg"
+                        class="w-100"
+                        alt="Image 5"
+                        data-bs-img-src="images/g2.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g3.jpg"
+                        class="w-100"
+                        alt="Image 6"
+                        data-bs-img-src="images/g3.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-gallery2"
+                role="tabpanel"
+                aria-labelledby="nav-gallery2-tab"
+                tabindex="0"
+              >
+                <div class="row gapp">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g1.jpg"
+                        class="w-100"
+                        alt="Image 4"
+                        data-bs-img-src="images/g1.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g2.jpg"
+                        class="w-100"
+                        alt="Image 5"
+                        data-bs-img-src="images/g2.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g3.jpg"
+                        class="w-100"
+                        alt="Image 6"
+                        data-bs-img-src="images/g3.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="quicktech-gal-img">
+                      <img
+                        src="images/g3.jpg"
+                        class="w-100"
+                        alt="Image 6"
+                        data-bs-img-src="images/g3.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery -->
+
+    <!-- gallery Modal Page 2 -->
+    <div
+      class="modal fade"
+      id="imageModalPage2"
+      tabindex="-1"
+      aria-labelledby="imageModalLabelPage2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img id="modalImagePage2" src="" class="w-100" alt="Modal Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer id="quicktech-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="quicktech-footer-head">
+              <h4>Explore</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="quicktech-footer-head">
+              <h4>Newsletter</h4>
+              <div class="newsletter-container">
+                <form class="d-flex">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email address"
+                    aria-label="Email address"
+                  />
+                  <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
+              </div>
+              <br />
+              <div class="quicktech-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29204.28269592876!2d90.38026844655764!3d23.799555463868852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sbn!2sbd!4v1728203502927!5m2!1sbn!2sbd"
+                  width="85%"
+                  height="170px"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="quicktech-footer-head">
+              <h4>Contact</h4>
+              <ul class="quicktech-contact-footer">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i> Mirpur 10 Shah Ali
+                  Plaza
+                </li>
+                <li>
+                  <a href="tel:01777777777"
+                    ><i class="fa-solid fa-phone"></i> 01777777777</a
+                  >
+                </li>
+                <li><i class="fa-solid fa-envelope"></i> demo@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <hr style="color: white" />
+            <div class="quicktech-copyright text-center">
+              <p class="text-white">
+                Copyright Megatop Travel International Pvt Ltd © 2024 All rights
+                reserved. Developed By QuickTech IT
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer -->
+    col-md-6
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <!-- JavaScript for gallery modal -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".quicktech-gal-img img").forEach((image) => {
+          image.addEventListener("click", function () {
+            const imgSrc = this.getAttribute("data-bs-img-src");
+            document.getElementById("modalImagePage2").src = imgSrc;
+            new bootstrap.Modal(
+              document.getElementById("imageModalPage2")
+            ).show();
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megatop Travel</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+   <!-- navbar -->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary menu-bg">
+    <div class="container">
+      <a href="index.html"
+        ><img class="quicktech-logo" src="images/MEGATOP-LOGO-removebg-preview.png" alt=""
+      /></a>
+      <a class="navbar-brand" href="index.html"
+        >Megatop Travel International Pvt Ltd</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="visa.html">Visa</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Hajj <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="hajj.html">Hajj</a></li>
+              <li><a class="dropdown-item" href="umraah.html">Umrah</a></li>
+            </ul>
+          </li>
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="hajj.html">Hajj</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="airticket.html">Air Ticket</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tourism.html">Tourism</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar -->
+
+    <!-- airticket form -->
+    <section style="background: url(./images/HD\ wallpaper_\ airplane\ 4k\ backgrounds\ hd.jpg) center center / cover no-repeat;" id="quicktech-airticket" class="pt-100">
+
+         <div class="quikctech-airticket-banner">
+           <div class="container ">
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                  <div class="quikctech-head text-center">
+                    <h3 style="color: black; font-weight: 900;">Air Ticket</h3>
+                  </div>
+                </div>
+              </div>
+           <div class="row mt-3">
+            <div class="col-lg-12">
+                <div class="search-bar">
+                    <div class="quikctech-flight-info-formm">
+                        <form>
+                     
+                               <div class="row gapp mt-3">
+                                <div class="col-md-3">
+                        
+                                  <div class="dropdown">
+                                    <button class="btn btn-light dropdown-toggle w-100" type="button" id="travelerDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                      1 Traveler, Economy <i class="fa-solid fa-caret-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="travelerDropdown">
+                                      <li>
+                                        <div class="px-3 py-2">
+                                          <label>Adults</label>
+                                          <input type="number" class="form-control" value="1">
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="px-3 py-2">
+                                          <label>Children</label>
+                                          <input type="number" class="form-control" value="0">
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="px-3 py-2">
+                                          <label>Infants</label>
+                                          <input type="number" class="form-control" value="0">
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                        
+                                <!-- One Way Toggle -->
+                                <div style="padding-top: 6px;" class="col-auto quicktech">
+                                  <div class="form-check form-check-inline quicktech-cc">
+                                    <input
+                                      class="form-check-input"
+                                      type="checkbox"
+                                      id="roundTrip"
+                                    />
+                                    <label class="form-check-label" for="roundTrip">Round Trip</label>
+                                  </div>
+                                  <div class="form-check form-check-inline quicktech-cc">
+                                    <input
+                                      class="form-check-input"
+                                      type="checkbox"
+                                      id="oneWay"
+                                    />
+                                    <label class="form-check-label" for="oneWay">One Way</label>
+                                  </div>
+                                </div>
+                                
+                        
+                                <!-- Baggage Option -->
+                                <div class="col-md-2">
+                                  <!-- <label for="baggage" class="form-label">Baggage</label> -->
+                                  <select id="baggage" class="form-select">
+                                    <option selected>1 Bag</option>
+                                    <option value="2">2 Bags</option>
+                                    <option value="3">3 Bags</option>
+                                  </select>
+                                </div>
+                              </div>
+                            <div class="row mt-4 align-items-center">
+                              <!-- Flight / Hotel / Visa Tabs -->
+                           
+                              
+                              <!-- From Airport -->
+                              <div class="col-md-4 quicktech-flight-form">
+                                <label for="fromAirport" class="form-label">Leaving From</label>
+                                <input class="form-control" id="fromAirport" type="text" placeholder="Hazrat Shahjalal International (DAC)">
+                              </div>
+                              
+                              <!-- To Airport -->
+                              <div class="col-md-4 quicktech-flight-form">
+                                <label for="toAirport" class="form-label">Going To</label>
+                                <input class="form-control" id="toAirport" type="text" placeholder="Singapore Changi Airport (SIN)">
+                              </div>
+                      
+                              <!-- Date -->
+                              <div class="col-md-2 quicktech-flight-form">
+                                <label for="departureDate" class="form-label">Departure Date</label>
+                                <input class="form-control" type="date" id="departureDate" value="2024-10-17">
+                              </div>
+                      
+                             
+            
+                              <!-- Contact Form Fields -->
+            <div class="row mt-5">
+                <div class="quicktech-customer-head text-center">
+                   <h4 style="color: black; font-weight: 900;">Customer Details</h4>
+                </div>
+                <!-- Name -->
+                <div class="col-md-6 quikctech-ddd">
+                    <label for="contactName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="contactName" placeholder="John Doe" required>
+                </div>
+    
+                <!-- Email -->
+                <div class="col-md-6 quikctech-ddd">
+                    <label for="contactEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="contactEmail" placeholder="email@example.com" required>
+                </div>
+            </div>
+    
+            <div class="row mt-3">
+                <!-- Phone -->
+                <div class="col-md-6 quikctech-ddd">
+                    <label for="contactPhone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="contactPhone" placeholder="+1234567890" required>
+                </div>
+    
+                <!-- Address -->
+                <div class="col-md-6 quikctech-ddd">
+                    <label for="contactAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="contactAddress" placeholder="123 Main St, City, Country">
+                </div>
+            </div>
+    
+            <!-- Notes -->
+            <div class="row mt-3">
+                <div class="col-12 col-lg-12 quikctech-ddd">
+                    <label for="contactNotes" class="form-label">Notes</label>
+                    <textarea class="form-control" id="contactNotes" rows="4" placeholder="Additional notes or message"></textarea>
+                </div>
+            </div>
+    
+            <!-- Submit Button -->
+            <div class="row mt-4">
+                <div class="col-md-2 m-auto">
+                    <button type="submit" class="btn btn-search w-100">Submit</button>
+                </div>
+            </div>
+        </form>
+                            
+                         
+                        
+                       </div>
+                </div>
+            </div>
+           </div>
+         
+          </div>
+           <!-- flight details -->
+         </div>
+    </section>
+    <!-- airticket form -->
+
+
+
+    <!-- footer -->
+
+    <footer id="quicktech-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="quicktech-footer-head">
+              <h4>Explore</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="quicktech-footer-head">
+              <h4>Newsletter</h4>
+              <div class="newsletter-container">
+                <form class="d-flex">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email address"
+                    aria-label="Email address"
+                  />
+                  <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
+              </div>
+              <br />
+              <div class="quicktech-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29204.28269592876!2d90.38026844655764!3d23.799555463868852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sbn!2sbd!4v1728203502927!5m2!1sbn!2sbd"
+                  width="85%"
+                  height="170px"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="quicktech-footer-head">
+              <h4>Contact</h4>
+              <ul class="quicktech-contact-footer">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i> Mirpur 10 Shah Ali
+                  Plaza
+                </li>
+                <li>
+                  <a href="tel:01777777777"
+                    ><i class="fa-solid fa-phone"></i> 01777777777</a
+                  >
+                </li>
+                <li><i class="fa-solid fa-envelope"></i> demo@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <hr style="color: white" />
+            <div class="quicktech-copyright text-center">
+              <p class="text-white">
+                Copyright Megatop Travel International Pvt Ltd © 2024 All rights
+                reserved. Developed By QuickTech IT
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+    <script src="js/jquery.youtube-background.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script></script>
+  </body>
+</html>

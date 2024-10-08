@@ -1,0 +1,746 @@
+/* common css start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    vertical-align: middle;
+    transition: 0.6s !important;
+}
+.gapp{
+  row-gap: 20px;
+}
+/* back to top button */
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+    background-color: #36BCCAFF;
+    color: #333;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  #myBtn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .arrow-up {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-135deg);
+  }
+  
+  /* preloader */
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: #353535c4;
+  }
+  
+  #preloader #preloader-inner {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #3498db;
+    animation: spin 2s linear infinite
+  }
+  
+  #preloader #preloader-inner:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #e74c3c;
+    animation: spin 3s linear infinite
+  }
+  
+  #preloader #preloader-inner:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #f9c922;
+    animation: spin 1.5s linear infinite
+  }
+  @keyframes 
+  spin { 0% {
+  transform:rotate(0deg)
+  }
+  
+  to { transform: rotate(1turn) }
+  }
+  .pt-100{
+    padding-top: 103px;
+  }
+  #imageModal{
+    z-index: 9999999999;
+  }
+/* common css end */
+
+/* navbar */
+.quicktech-logo{
+  width: 88px;
+}
+.nav-link{
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.nav-link:hover{
+  color: white ;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+	color: white !important;
+}
+.navbar-brand {
+	font-weight: 800;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #0000ffd1;
+}
+.navbar-brand:hover{
+  color:#0000ffd1 ;
+}
+.navbar-expand-lg {
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	background-color: #ffffff54;
+	box-shadow: 1px 1px 1px 1px #00000030;
+}
+.nav-bg {
+	background-color: white !important;
+	box-shadow: 1px 1px 5px 0 grey;
+
+}
+.nav-bg .nav-link {
+	color: black;
+}
+.nav-bg .nav-link:hover {
+	color: black;
+}
+.nav-bg .nav-link.active{
+  color: black !important;
+}
+/* navbar */
+/* banner */
+.carousel-item img {
+	height: 100vh;
+	filter: brightness(70%);
+}
+.quikctech-banner-inner{
+  position: relative;
+}
+.quikctech-banner-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.quikctech-banner-text h1{
+  color: white;
+  font-weight: 700;
+}
+.quikctech-banner-text p{
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+}
+.quikctech-banner-text button{
+  padding: 8px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 19px;
+}
+/* banner */
+/* category */
+#quicktech-category{
+  padding: 40px 0;
+}
+.quicktech-categories-inner {
+	border: 2px solid #ddd;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.43);
+  transition: 0.4s ease-in-out;
+  height: 230px;
+}
+.quicktech-categories-inner:hover{
+ box-shadow: none;
+
+}
+.quicktech-categories-inner h4{
+  color: black;
+  font-weight: 600;
+  padding-top: 16px;
+}
+.quicktech-categories-inner p{
+  color: black;
+  font-weight: 400;
+}
+/* category */
+
+/* chairman message */
+#quikctech-chairman{
+  padding-bottom: 40px;
+}
+.quikctech-chairman-inner {
+	padding: 30px;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-color: #dddddd38;
+  box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.72);
+  -webkit-box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.72);
+  -moz-box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.72);
+}
+.quikctech-chairman-inner img{
+  width: 240px;
+  height: 240px;
+}
+.quikctech-chairman-inner h3{
+   font-weight: 600;
+   padding: 10px 0;
+}
+.quikctech-chairman-inner p{
+  font-weight: 600;
+}
+/* chairman message */
+
+/* gallery */
+.quikctech-head h3{
+  font-weight: 600;
+  font-size: 30px;
+}
+#quicktech-gallery{
+  padding-bottom: 40px;
+}
+.quicktech-gal-img img{
+  height: 280px;
+}
+.quikctech-gallery-btn a{
+  padding: 8px 20px;
+  background-color: blue;
+  color: white;
+  font-weight: 500;
+}
+/* gallery */
+/* footer */
+#quicktech-footer{
+  padding-top: 30px;
+  background-color: navy;
+
+}
+.quicktech-footer-head h4{
+  color: white;
+  font-weight: 600;
+}
+.quicktech-footer-head ul li a{
+  color: white;
+  padding-bottom: 5px;
+}
+.quicktech-footer-head ul li{
+  padding-bottom: 10px;
+}
+.newsletter-title {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  border: 1px solid #dcdcdc;
+  border-radius: 0;
+}
+.btn-submit {
+  background-color: blue;
+  color: white;
+  border-radius: 0;
+  font-weight: 600;
+}
+.newsletter-container {
+  padding-top: 12px;
+}
+.form-control {
+	display: block;
+	width: 70%;
+	padding: 14px .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
+}
+.btn-submit {
+	background-color: blue;
+	color: white;
+	border-radius: 0;
+	font-weight: 600;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.quicktech-contact-footer li{
+  color: white;
+
+}
+.quicktech-map iframe{
+  border-radius: 10px;
+}
+/* footer */
+
+/* visa page */
+.quikctech-visabanner-img img{
+  height: 300px;
+  object-fit: cover;
+  filter: brightness(85%);
+}
+.quikctech-visabanner-img{
+  position: relative;
+}
+.quikctech-visa-head {
+	position: absolute;
+	/* top: 50%; */
+	left: 50%;
+	transform: translate(-50%,-50%);
+	bottom: 40px;
+}
+.quikctech-visa-head h1{
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+
+}
+#quicktech-visa-country{
+  padding: 40px 0;
+}
+.quicktech-country h4 {
+	color: black;
+	font-weight: 600;
+	font-size: 17px;
+}
+.quicktech-country img {
+	height: 80px;
+	transition: 0.2s ease-in-out;
+	border-radius: 5px;
+	padding-bottom: 7px;
+}
+.quicktech-country img:hover{
+  transform: scale(1.05);
+}
+.quicktech-country {
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #ddd3;
+  box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.72);
+  -webkit-box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.72);
+  -moz-box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.72);
+}
+/* visa page */
+
+/* visa details page */
+.quicktech-visadetails-banner-img img{
+  height: 450px;
+  object-fit: cover;
+  filter: brightness(75%);
+}
+.quicktech-visadetails-banner-img{
+  position: relative;
+}
+.quikctech-visadetails-banner-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.quikctech-visadetails-banner-text h1{
+  color: white;
+  font-weight: 700;
+}
+.quikctech-visadetails-banner-text p{
+  color: white;
+  padding-top: 10px;
+  font-weight: 400;
+
+}
+#quicktech-visa-requirments{
+  padding: 40px 0;
+}
+/*  */
+.quicktech-content {
+  padding: 30px;
+}
+
+.quicktech-section-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.quicktech-visa-fee {
+	background-color: navy;
+	color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.quicktech-total-cost {
+  font-size: 18px;
+  margin-top: 10px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+
+.quicktech-downloads a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.quicktech-downloads a:hover {
+  text-decoration: underline;
+}
+
+.quicktech-contact {
+  margin-top: 20px;
+}
+
+.quicktech-contact-info {
+  margin-bottom: 10px;
+}
+
+.quicktech-icon {
+  margin-right: 10px;
+}
+.quicktech-process-inner{
+  padding: 0 30px;
+}
+
+/*  */
+h1.quicktech-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+ul.quicktech-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.quicktech-list li {
+  margin-bottom: 10px;
+}
+
+.quicktech-content {
+  margin: 30px;
+}
+
+a.quicktech-link {
+  color: #007bff;
+}
+
+a.quicktech-link:hover {
+  text-decoration: underline;
+}
+#quikctech-application-process{
+  background-color: #E5E5E5;
+  padding: 30px 0;
+}
+.quicktech-header p{
+     padding: 15px 0;
+}
+
+/* application process */
+#quikctech-app{
+  padding: 40px 0;
+}
+.quikctech-ap-one h5{
+  font-weight: 700;
+  color: black;
+
+}
+.quikctech-ap-one ul li{
+  color: rgba(0, 0, 0, 0.596);
+}
+/* visa details page */
+
+/* air ticket */
+
+.search-bar {
+	background-color: rgba(255, 255, 255, 0.67);
+	border-radius: 8px;
+	padding: 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.search-bar .btn-search {
+  background-color: BLUE;
+  color: white;
+}
+
+.dropdown-toggle::after {
+  display: none; /* Remove default arrow */
+}
+
+.hot-deals {
+  padding: 20px;
+  text-align: center;
+}
+#quicktech-airticket{
+  padding-bottom: 45px;
+}
+.quicktech-flight-form input{
+  display: block;
+  width: 100% !important;
+  padding: 14px .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 10px !important;
+
+}
+
+
+.quikctech-ddd input{
+  width: 100% !important;
+  border-radius: 10px;
+}
+.quikctech-ddd textarea{
+  width: 100% !important;
+  border-radius: 10px;
+}
+.quicktech-cc label{
+  font-weight: 800;
+}
+.quikctech-ddd label{
+  font-weight: 900;
+}
+
+.dropdown-item {
+	display: block;
+	width: 100%;
+	padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+	clear: both;
+	font-weight: 400;
+	color: var(--bs-dropdown-link-color);
+	text-align: inherit;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 0;
+	font-size: 14px;
+}
+
+/* package page */
+.quicktech-hajj-package {
+	border: 1px solid #ddd;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	background-color: #f7f7f7;
+}
+.quicktech-hajj-package img{
+  height: 230px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+.quicktech-hajj-package img:hover{
+  transform: scale(1.02);
+}
+.quicktech-hajj-package h4{
+  font-size: 21px;
+  font-weight: 700;
+  padding:10px 0;
+  color: black;
+}
+.quicktech-hajj-package span{
+   color: blue;
+  padding:10px 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+.quicktech-hajj-package p {
+	padding-top: 15px;
+	color: #000000a3;
+}
+.quikctech-b-btn{
+  padding: 8px 20px;
+  background-color: blue;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+}
+.quikctech-package-offer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  padding: 15px 0;
+}
+.content-ex h6{
+  font-size: 14px;
+  color: black;
+}
+/* package page */
+/* package details page */
+.quicktech-package-details-text{
+  padding: 30px;
+}
+.quicktech-package-details-text h3{
+     font-size: 30px;
+     font-weight: 700;
+}
+.quicktech-package-details-text p{
+  color: blue;
+  font-weight: 700;
+  font-size: 18px;
+}
+.quicktech-package-details-text span{
+  color: rgba(0, 0, 0, 0.562);
+}
+.quicktech-package-inner {
+	display: flex;
+	gap: 10px;
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.quicktech-package-cotent h4{
+  font-size: 23px;
+  font-weight: 800;
+  color: black;
+}
+.quicktech-package-cotent p{
+  font-size: 14px;
+  line-height: 1.5em; /* Adjust this according to your font size */
+  max-height: 7.5em;  /* This ensures 5 lines of content (1.5em * 5) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  color: black;
+}
+.quicktech-days span{
+  color: blue;
+}
+.package-img img{
+  height: 200px;
+}
+/* package details page */
+
+/* gallery page*/
+#imageModalPage2{
+  z-index: 9999999999;
+}
+
+
+/* gallery page */
+
+/* contact page */
+.contact-info {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info h2 {
+  margin-bottom: 20px;
+}
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.contact-info i {
+  color: #007bff;
+  margin-right: 10px;
+}
+.contact-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+.quicktech-contact-input input{
+  width: 100%;
+}
+.quicktech-contact-input textarea{
+  width: 100%;
+}
+/* contact page */

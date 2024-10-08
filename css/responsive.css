@@ -1,0 +1,261 @@
+@media (max-width: 575.98px) {
+   /* index */
+   .nav-link {
+	color: black;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+	color: black !important;
+}
+ #quicktech-banner{
+    padding-top: 89px;
+ }
+.navbar-brand {
+    display: none;
+}
+.navbar-expand-lg {
+    flex-wrap: wrap !important;
+    background-color: white;
+}
+.carousel-item img {
+    height: 300px;
+    filter: brightness(70%);
+}
+.quikctech-banner-text h1 {
+    font-size: 16px;
+}
+.quikctech-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.quikctech-banner-text p {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+.quikctech-banner-text button {
+    padding: 6px 11px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.quicktech-logo {
+    width: 73px;
+}
+.quikctech-chairman-inner img {
+    width: 100%;
+    height: 296px;
+}
+.quikctech-chairman-inner{
+    text-align: left !important;
+}
+   /* index */
+/* visa page */
+#quicktech-visabanner{
+    padding-top: 89px;
+}
+.quikctech-visabanner-img img {
+	height: 143px !important;
+	object-fit: cover;
+	filter: brightness(85%);
+}
+.quikctech-visa-head h1 {
+	font-size: 21px !important;
+	color: white;
+	font-weight: 700;
+}
+.quikctech-head h3 {
+	font-weight: 600;
+	font-size: 21px;
+}
+/* visa page */
+
+/* tourism page */
+.quicktech-package-inner {
+	display: block;
+}
+.package-img {
+    width: 100% !important;
+}
+.quicktech-package-cotent{
+    width: 100% !important;
+    padding-top: 10px;
+}
+/* tourism page */
+
+/* tourism details page */
+.quicktech-days span{
+   font-size: 14px !important;
+}
+
+/* tourism details page */
+
+/* gallery page */
+.quicktech-gal-img img {
+	height: 250px;
+}
+/* gallery page */
+.quicktech-copyright p{
+    font-size: 10px;
+}
+
+.modal {
+	--bs-modal-zindex: 1055;
+	--bs-modal-width: 500px;
+	--bs-modal-padding: 1rem;
+	--bs-modal-margin: 0.5rem;
+	--bs-modal-color: ;
+	--bs-modal-bg: #fff;
+	--bs-modal-border-color: var(--bs-border-color-translucent);
+	--bs-modal-border-width: 1px;
+	--bs-modal-border-radius: 0.5rem;
+	--bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+	--bs-modal-inner-border-radius: calc(0.5rem - 1px);
+	--bs-modal-header-padding-x: 1rem;
+	--bs-modal-header-padding-y: 1rem;
+	--bs-modal-header-padding: 1rem 1rem;
+	--bs-modal-header-border-color: var(--bs-border-color);
+	--bs-modal-header-border-width: 1px;
+	--bs-modal-title-line-height: 1.5;
+	--bs-modal-footer-gap: 0.5rem;
+	--bs-modal-footer-bg: ;
+	--bs-modal-footer-border-color: var(--bs-border-color);
+	--bs-modal-footer-border-width: 1px;
+	position: fixed;
+	top: 123px;
+	left: 0;
+	z-index: var(--bs-modal-zindex);
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	outline: 0;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 766.98px) {
+     /* index */
+   .nav-link {
+	color: black;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+	color: black !important;
+}
+ #quicktech-banner{
+    padding-top: 89px;
+ }
+.navbar-brand {
+    display: none;
+}
+.navbar-expand-lg {
+    flex-wrap: wrap !important;
+    background-color: white;
+}
+.carousel-item img {
+    height: 300px;
+    filter: brightness(70%);
+}
+.quikctech-banner-text h1 {
+	font-size: 20px !important;
+}
+.quikctech-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.quikctech-banner-text p {
+	font-size: 18px;
+	color: white;
+	font-weight: 500;
+}
+.quikctech-banner-text button {
+	padding: 6px 11px;
+	background-color: white;
+	color: black;
+	border: none;
+	font-weight: 600;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.quicktech-logo {
+    width: 73px;
+}
+
+   /* index */
+   /* visa page */
+#quicktech-visabanner{
+    padding-top: 89px;
+}
+.quikctech-visabanner-img img {
+	height: 143px !important;
+	object-fit: cover;
+	filter: brightness(85%);
+}
+.quikctech-visa-head h1 {
+	font-size: 21px !important;
+	color: white;
+	font-weight: 700;
+}
+.quikctech-head h3 {
+	font-weight: 600;
+	font-size: 21px;
+}
+/* visa page */
+
+}
+
+@media (min-width: 767px) and (max-width: 991.98px) {
+  /* index */
+  .nav-link {
+	color: black;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+	color: black !important;
+}
+
+.navbar-brand {
+    display: none;
+}
+.navbar-expand-lg {
+    flex-wrap: wrap !important;
+    background-color: white;
+}
+.carousel-item img {
+	height: 600px;
+	filter: brightness(70%);
+}
+#quicktech-banner{
+    padding-top: 100px;
+ }
+   /* visa page */
+#quicktech-visabanner{
+    padding-top: 89px;
+}
+.quikctech-visabanner-img img {
+	height: 143px !important;
+	object-fit: cover;
+	filter: brightness(85%);
+}
+.quikctech-visa-head h1 {
+	font-size: 21px !important;
+	color: white;
+	font-weight: 700;
+}
+.quikctech-head h3 {
+	font-weight: 600;
+	font-size: 21px;
+}
+/* visa page */
+.quicktech-package-details-text {
+	padding: 0 !important;
+}
+}
