@@ -417,16 +417,16 @@
     <!-- JavaScript for gallery modal -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        document.querySelectorAll(".quicktech-gal-img img").forEach((image) => {
-          image.addEventListener("click", function () {
-            const imgSrc = this.getAttribute("data-bs-img-src");
-            document.getElementById("modalImagePage2").src = imgSrc;
-            new bootstrap.Modal(
-              document.getElementById("imageModalPage2")
-            ).show();
-          });
-        });
-      });
+  document.querySelectorAll(".quicktech-gal-img img").forEach((image) => {
+    image.addEventListener("click", function () {
+      const imgSrc = this.getAttribute("data-bs-img-src");
+      document.getElementById("modalImagePage2").src = imgSrc;
+      new bootstrap.Modal(
+        document.getElementById("imageModalPage2")
+      ).show();
+    });
+  });
+});
     </script>
   </body>
 </html>

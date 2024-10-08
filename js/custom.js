@@ -1,4 +1,5 @@
 $(function () {
+  
 
   $(window).scroll(function(){
     var scrolling = $(this).scrollTop()
@@ -23,6 +24,8 @@ $(function () {
   });
 
   // bannerslide
+ // gallery for Page 2
+
 
   // gallery
   document.querySelectorAll(".quicktech-gal-img img").forEach((image) => {
@@ -33,12 +36,7 @@ $(function () {
   });
   // gallery
 
-  // gallery for Page 2
-document.querySelectorAll(".quicktech-gal-img img").forEach((image) => {
-  image.addEventListener("click", function () {
-    const imgSrc = this.getAttribute("data-bs-img-src");
-    document.getElementById("modalImagePage2").src = imgSrc;
-  });
-});
+
 
 });
+ 
